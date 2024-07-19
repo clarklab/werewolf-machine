@@ -4,13 +4,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-html, body, #app {
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   min-height: 100%;
 }
+
+.inter-tight-400 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-tight-600 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-tight-800 {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
 
 a {
   &:hover {
@@ -19,7 +41,7 @@ a {
 }
 
 .font-michroma {
-  font-family: 'Michroma', sans-serif;
+  @apply inter-tight-800;
 }
 
 .bg-decorations-1 {
@@ -76,29 +98,20 @@ a {
       background: #E2A306;
       box-shadow: 0px 0px 20px #E2A306, inset 0px 0px 30px #E2A306;
     }
+
+    &.button-purple {
+      background: mediumpurple;
+      box-shadow: 0px 0px 20px mediumpurple, inset 0px 0px 30px mediumpurple;
+    }
   }
 }
 
 .button-music {
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  @apply leading-4 p-3 w-full text-left gap-2 flex flex-col justify-between inter-tight-600;
 }
 
-@media (max-width: 1280px) {
-  .button-music {
-    width: 64px !important;
-    height: 64px !important;
-    line-height: 64px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .button-music {
-    width: 54px !important;
-    height: 32px !important;
-    line-height: 32px !important;
-  }
+.button-music span{
+  @apply block;
 }
 
 .form-control {
