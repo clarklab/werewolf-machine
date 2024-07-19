@@ -1,7 +1,7 @@
 <template>
   <div class="flex-1 flex flex-col items-center justify-center">
     <div class="">
-      <img src="/images/werewolf-logo.svg" alt="MAGENTA" class="mx-auto h-12 md:h-16 xl:h-20" />
+      <img src="/images/werewolf-logo.svg" alt="MAGENTA" class="mx-auto h-10 md:h-16 xl:h-20" />
     </div>
     <Machine />
     <div class="mt-8 md:mt-16">

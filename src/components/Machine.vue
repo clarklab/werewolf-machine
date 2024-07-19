@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col w-full px-4 md:flex-row justify-center gap-3 md:gap-8 mb-8 xl:gap-16 md:mb-16">
       <div>
-        <div class="font-michroma text-left md:text-center mb-2 mt-6 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
+        <div class="font-michroma text-left md:text-center mb-2 mt-2 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
           Night
         </div>
 
@@ -14,13 +14,13 @@
             :class="{ active: player.howl.volume() == 1 }"
             @click="toggle(player.sample.id)"
           >
-            <span class="material-symbols-outlined">{{ player.sample.icon }}</span>
+            <span class="material-symbols-outlined text-base">{{ player.sample.icon }}</span>
             {{ player.sample.name }}
           </button>
         </div>
       </div>
       <div>
-        <div class="font-michroma text-left md:text-center mb-2 mt-6 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
+        <div class="font-michroma text-left md:text-center mb-2 mt-2 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
           Howls
         </div>
 
@@ -33,13 +33,13 @@
             :class="{ active: player.howl.volume() == 1 }"
             @click="toggle(player.sample.id)"
           >
-            <span class="material-symbols-outlined">{{ player.sample.icon }}</span>
+            <span class="material-symbols-outlined text-base">{{ player.sample.icon }}</span>
             {{ player.sample.name }}
           </button>
         </div>
       </div>
       <div>
-        <div class="font-michroma text-left md:text-center mb-2 mt-6 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
+        <div class="font-michroma text-left md:text-center mb-2 mt-2 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
           Werewolf Attack
         </div>
 
@@ -52,14 +52,14 @@
             :class="{ active: player.howl.volume() == 1 }"
             @click="toggle(player.sample.id)"
           >
-            <span class="material-symbols-outlined">{{ player.sample.icon }}</span>
+            <span class="material-symbols-outlined text-base">{{ player.sample.icon }}</span>
             {{ player.sample.name }}
           </button>
         </div>
 
       </div>
       <div>
-        <div class="font-michroma text-left md:text-center mb-2 mt-6 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
+        <div class="font-michroma text-left md:text-center mb-2 mt-2 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
           Morning
         </div>
 
@@ -72,14 +72,14 @@
             :class="{ active: player.howl.volume() == 1 }"
             @click="toggle(player.sample.id)"
           >
-            <span class="material-symbols-outlined">{{ player.sample.icon }}</span>
+            <span class="material-symbols-outlined text-base">{{ player.sample.icon }}</span>
             {{ player.sample.name }}
           </button>
         </div>
       </div>
 
       <div>
-        <div class="font-michroma text-left md:text-center mb-2 mt-6 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
+        <div class="font-michroma text-left md:text-center mb-2 mt-2 text-sm md:text-sm xl:text-base uppercase tracking-widest text-gray-400">
           Misc
         </div>
 
@@ -92,7 +92,7 @@
             :class="{ active: player.howl.volume() == 1 }"
             @click="toggle(player.sample.id)"
           >
-            <span class="material-symbols-outlined">{{ player.sample.icon }}</span>
+            <span class="material-symbols-outlined text-base">{{ player.sample.icon }}</span>
             {{ player.sample.name }}
           </button>
         </div>

@@ -107,7 +107,7 @@ a {
 }
 
 .button-music {
-  @apply leading-4 p-3 w-full text-left gap-2 flex flex-col justify-between inter-tight-600;
+  @apply leading-4 p-2 w-full text-left gap-1 flex flex-col justify-between inter-tight-600;
 }
 
 .button-music span{
