@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-1 flex flex-col items-center justify-center">
+  <div class="">
     <div class="">
       <img src="/images/werewolf-logo.svg" alt="MAGENTA" class="mx-auto h-10 md:h-16 xl:h-20" />
     </div>

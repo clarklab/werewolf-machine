@@ -128,26 +128,27 @@ a {
 }
 
 .add-to-home-screen-button {
-            display: flex;
+            display: block;
             align-items: center;
             position: fixed;
             bottom: 10px;
-            right: 10px;
-            background-color: #000;
+            right: 0;
+            left:0;
             color: #fff;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
+            background:#000;
+            border-top:1px solid #666;
+            padding:6px 4px 4px;
             cursor: pointer;
             font-size: 16px;
+            z-index: 30;
         }
 
         .add-to-home-screen-button .material-symbols-outlined {
             margin-right: 8px;
-        }
+            font-size:1rem;        }
 
 .button-music {
-  @apply leading-4 p-2 w-full text-left gap-1 flex flex-col justify-between inter-tight-600 border-2 border-gray-500;
+  @apply rounded-lg leading-4 p-2 w-full text-left gap-1 flex flex-col justify-between inter-tight-600 border-2 border-gray-500;
 }
 
 .button-music span{
